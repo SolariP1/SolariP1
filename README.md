@@ -3,6 +3,7 @@ Aluno novo na programação, formado em Desenvolvimento de Sistemas na escola Se
 
 Meu e-mail para contato é: almeida091123@gmail.com
 
+E meu instagram é esse:
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lucas_arume/)
 
 Até o momento com conhecimento nas seguintes linguagens de programação:
