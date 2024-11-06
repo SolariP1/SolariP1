@@ -16,3 +16,6 @@ Até o momento com conhecimento nas seguintes linguagens de programação:
 
 
 ![SolariP1 GitHub stats](https://github-readme-stats.vercel.app/api?username=SolariP1&show_icons=true&theme=radical)
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SolariP1&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
