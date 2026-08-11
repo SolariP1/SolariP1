@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Lucas Almeida Santos">
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#050713"/>
+      <stop offset="45%"  stop-color="#12082e"/>
+      <stop offset="100%" stop-color="#03040d"/>
+    </linearGradient>
+
+    <radialGradient id="nebulaA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#06b6d4" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ec4899" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="planet" cx="35%" cy="30%" r="75%">
+      <stop offset="0%"   stop-color="#c4b5fd"/>
+      <stop offset="55%"  stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#2e1065"/>
+    </radialGradient>
+
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#a78bfa" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="1000" height="260" fill="url(#space)"/>
+
+  <!-- nebulosas pulsando -->
+  <g filter="url(#soft)">
+    <ellipse cx="180" cy="70" rx="190" ry="110" fill="url(#nebulaA)">
+      <animate attributeName="opacity" values="0.5;0.95;0.5" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="640" cy="215" rx="230" ry="120" fill="url(#nebulaB)">
+      <animate attributeName="opacity" values="0.9;0.45;0.9" dur="11s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="470" cy="40" rx="200" ry="90" fill="url(#nebulaC)">
+      <animate attributeName="opacity" values="0.35;0.8;0.35" dur="13s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- campo de estrelas piscando -->
+  <g fill="#ffffff">
+    <circle cx="32"  cy="38"  r="1.4"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="88"  cy="112" r="1"  ><animate attributeName="opacity" values="1;0.2;1"    dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="140" cy="26"  r="1.2"><animate attributeName="opacity" values="0.3;1;0.3"  dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="205" cy="168" r="1"  ><animate attributeName="opacity" values="0.9;0.25;0.9" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="252" cy="62"  r="1.6"><animate attributeName="opacity" values="0.2;1;0.2"  dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="220" r="1.1"><animate attributeName="opacity" values="1;0.3;1"    dur="5.2s" repeatCount="indefinite"/></circle>
+    <circle cx="356" cy="18"  r="0.9"><animate attributeName="opacity" values="0.25;0.95;0.25" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="140" r="1.3"><animate attributeName="opacity" values="0.8;0.2;0.8"  dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="468" cy="228" r="1"  ><animate attributeName="opacity" values="0.2;1;0.2"    dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="522" cy="52"  r="1.5"><animate attributeName="opacity" values="1;0.35;1"     dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="578" cy="186" r="1"  ><animate attributeName="opacity" values="0.3;0.9;0.3"  dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="634" cy="34"  r="1.2"><animate attributeName="opacity" values="0.9;0.2;0.9"  dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="126" r="0.9"><animate attributeName="opacity" values="0.2;1;0.2"    dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="746" cy="212" r="1.4"><animate attributeName="opacity" values="1;0.25;1"     dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="802" cy="46"  r="1"  ><animate attributeName="opacity" values="0.35;0.95;0.35" dur="6.1s" repeatCount="indefinite"/></circle>
+    <circle cx="858" cy="158" r="1.2"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="912" cy="98"  r="1"  ><animate attributeName="opacity" values="0.2;1;0.2"    dur="4.9s" repeatCount="indefinite"/></circle>
+    <circle cx="964" cy="196" r="1.5"><animate attributeName="opacity" values="1;0.3;1"      dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="60"  cy="204" r="1.1"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="5.8s" repeatCount="indefinite"/></circle>
+    <circle cx="118" cy="238" r="0.9"><animate attributeName="opacity" values="0.9;0.2;0.9"  dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="176" cy="88"  r="1"  ><animate attributeName="opacity" values="0.2;0.95;0.2" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="96"  r="1.2"><animate attributeName="opacity" values="1;0.25;1"     dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="440" cy="70"  r="0.9"><animate attributeName="opacity" values="0.3;1;0.3"    dur="6.4s" repeatCount="indefinite"/></circle>
+    <circle cx="556" cy="122" r="1.1"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="712" cy="240" r="1"  ><animate attributeName="opacity" values="0.2;0.9;0.2"  dur="4.7s" repeatCount="indefinite"/></circle>
+    <circle cx="836" cy="234" r="1.3"><animate attributeName="opacity" values="1;0.3;1"      dur="5.1s" repeatCount="indefinite"/></circle>
+    <circle cx="944" cy="26"  r="1"  ><animate attributeName="opacity" values="0.25;1;0.25"  dur="2.95s" repeatCount="indefinite"/></circle>
+    <circle cx="16"  cy="140" r="1.2"><animate attributeName="opacity" values="0.9;0.2;0.9"  dur="4.05s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- estrelas cadentes -->
+  <g opacity="0">
+    <line x1="0" y1="0" x2="70" y2="26" stroke="url(#trail)" stroke-width="2" stroke-linecap="round"/>
+    <animateTransform attributeName="transform" type="translate" values="-140,-50; 1040,390" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.15;0.5;0.7" dur="6s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <line x1="0" y1="0" x2="52" y2="20" stroke="url(#trail)" stroke-width="1.4" stroke-linecap="round"/>
+    <animateTransform attributeName="transform" type="translate" values="-140,-30; 1040,410" dur="8s" begin="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.05;0.15;0.5;0.7" dur="8s" begin="3.2s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- planeta com anel e lua em orbita -->
+  <g transform="translate(880 62)">
+    <circle r="30" fill="url(#planet)"/>
+    <ellipse rx="52" ry="14" fill="none" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.75" transform="rotate(-22)">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="5s" repeatCount="indefinite"/>
+    </ellipse>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      <circle cx="58" cy="0" r="3.5" fill="#67e8f9" filter="url(#glow)"/>
+    </g>
+  </g>
+
+  <!-- titulo -->
+  <g opacity="0" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+    <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
+    <text x="440" y="118" fill="#ffffff" font-size="46" font-weight="700" letter-spacing="4" filter="url(#glow)">LUCAS ALMEIDA SANTOS</text>
+    <text x="440" y="152" fill="#a5b4fc" font-size="17" font-weight="500" letter-spacing="6">DESENVOLVIMENTO DE SISTEMAS &#183; SESI/SENAI</text>
+  </g>
+
+  <!-- linha animada -->
+  <rect x="200" y="172" width="480" height="2" rx="1" fill="url(#rule)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
