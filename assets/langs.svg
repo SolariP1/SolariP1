@@ -34,12 +34,12 @@
     <rect x="22" y="52" width="396" height="10" rx="5" fill="#1b1830"/>
     <clipPath id="barclip"><rect x="22" y="52" width="396" height="10" rx="5"/></clipPath>
     <g clip-path="url(#barclip)">
-    <rect x="22.0" y="52" width="0" height="10" fill="#3178C6"><animate attributeName="width" from="0" to="166.2" dur="0.9s" begin="0.00s" fill="freeze"/></rect>
-    <rect x="188.2" y="52" width="0" height="10" fill="#3572A5"><animate attributeName="width" from="0" to="136.0" dur="0.9s" begin="0.10s" fill="freeze"/></rect>
-    <rect x="324.2" y="52" width="0" height="10" fill="#4F5D95"><animate attributeName="width" from="0" to="37.6" dur="0.9s" begin="0.20s" fill="freeze"/></rect>
-    <rect x="361.8" y="52" width="0" height="10" fill="#663399"><animate attributeName="width" from="0" to="22.7" dur="0.9s" begin="0.30s" fill="freeze"/></rect>
-    <rect x="384.5" y="52" width="0" height="10" fill="#E34C26"><animate attributeName="width" from="0" to="16.7" dur="0.9s" begin="0.40s" fill="freeze"/></rect>
-    <rect x="401.2" y="52" width="0" height="10" fill="#F1E05A"><animate attributeName="width" from="0" to="9.6" dur="0.9s" begin="0.50s" fill="freeze"/></rect>
+    <rect x="22.0" y="52" width="0" height="10" fill="#3178C6"><animate attributeName="width" from="0" to="166.1" dur="0.9s" begin="0.00s" fill="freeze"/></rect>
+    <rect x="188.1" y="52" width="0" height="10" fill="#3572A5"><animate attributeName="width" from="0" to="136.0" dur="0.9s" begin="0.10s" fill="freeze"/></rect>
+    <rect x="324.1" y="52" width="0" height="10" fill="#4F5D95"><animate attributeName="width" from="0" to="37.6" dur="0.9s" begin="0.20s" fill="freeze"/></rect>
+    <rect x="361.7" y="52" width="0" height="10" fill="#663399"><animate attributeName="width" from="0" to="22.6" dur="0.9s" begin="0.30s" fill="freeze"/></rect>
+    <rect x="384.4" y="52" width="0" height="10" fill="#E34C26"><animate attributeName="width" from="0" to="16.7" dur="0.9s" begin="0.40s" fill="freeze"/></rect>
+    <rect x="401.0" y="52" width="0" height="10" fill="#F1E05A"><animate attributeName="width" from="0" to="9.6" dur="0.9s" begin="0.50s" fill="freeze"/></rect>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.50s" fill="freeze"/>
