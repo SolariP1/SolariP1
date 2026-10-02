@@ -34,48 +34,48 @@
     <rect x="22" y="52" width="396" height="10" rx="5" fill="#1b1830"/>
     <clipPath id="barclip"><rect x="22" y="52" width="396" height="10" rx="5"/></clipPath>
     <g clip-path="url(#barclip)">
-    <rect x="22.0" y="52" width="0" height="10" fill="#3178C6"><animate attributeName="width" from="0" to="135.8" dur="0.9s" begin="0.00s" fill="freeze"/></rect>
-    <rect x="157.8" y="52" width="0" height="10" fill="#3572A5"><animate attributeName="width" from="0" to="111.1" dur="0.9s" begin="0.10s" fill="freeze"/></rect>
-    <rect x="268.9" y="52" width="0" height="10" fill="#a78bfa"><animate attributeName="width" from="0" to="69.7" dur="0.9s" begin="0.20s" fill="freeze"/></rect>
-    <rect x="338.6" y="52" width="0" height="10" fill="#4F5D95"><animate attributeName="width" from="0" to="30.8" dur="0.9s" begin="0.30s" fill="freeze"/></rect>
-    <rect x="369.3" y="52" width="0" height="10" fill="#663399"><animate attributeName="width" from="0" to="18.5" dur="0.9s" begin="0.40s" fill="freeze"/></rect>
-    <rect x="387.8" y="52" width="0" height="10" fill="#E34C26"><animate attributeName="width" from="0" to="13.6" dur="0.9s" begin="0.50s" fill="freeze"/></rect>
+    <rect x="22.0" y="52" width="0" height="10" fill="#3178C6"><animate attributeName="width" from="0" to="121.1" dur="0.9s" begin="0.00s" fill="freeze"/></rect>
+    <rect x="143.1" y="52" width="0" height="10" fill="#a78bfa"><animate attributeName="width" from="0" to="104.9" dur="0.9s" begin="0.10s" fill="freeze"/></rect>
+    <rect x="248.0" y="52" width="0" height="10" fill="#3572A5"><animate attributeName="width" from="0" to="99.1" dur="0.9s" begin="0.20s" fill="freeze"/></rect>
+    <rect x="347.2" y="52" width="0" height="10" fill="#4F5D95"><animate attributeName="width" from="0" to="27.4" dur="0.9s" begin="0.30s" fill="freeze"/></rect>
+    <rect x="374.6" y="52" width="0" height="10" fill="#663399"><animate attributeName="width" from="0" to="16.5" dur="0.9s" begin="0.40s" fill="freeze"/></rect>
+    <rect x="391.1" y="52" width="0" height="10" fill="#E34C26"><animate attributeName="width" from="0" to="12.1" dur="0.9s" begin="0.50s" fill="freeze"/></rect>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.50s" fill="freeze"/>
       <circle cx="27" cy="92" r="5" fill="#3178C6"/>
       <text x="40" y="96" fill="#e6e8f0" font-size="13">TypeScript</text>
-      <text x="202" y="96" fill="#8b93b0" font-size="12" text-anchor="end">34.3%</text>
+      <text x="202" y="96" fill="#8b93b0" font-size="12" text-anchor="end">30.6%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.60s" fill="freeze"/>
-      <circle cx="232" cy="92" r="5" fill="#3572A5"/>
-      <text x="245" y="96" fill="#e6e8f0" font-size="13">Python</text>
-      <text x="407" y="96" fill="#8b93b0" font-size="12" text-anchor="end">28.1%</text>
+      <circle cx="232" cy="92" r="5" fill="#a78bfa"/>
+      <text x="245" y="96" fill="#e6e8f0" font-size="13">Swift</text>
+      <text x="407" y="96" fill="#8b93b0" font-size="12" text-anchor="end">26.5%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.70s" fill="freeze"/>
-      <circle cx="27" cy="122" r="5" fill="#a78bfa"/>
-      <text x="40" y="126" fill="#e6e8f0" font-size="13">Swift</text>
-      <text x="202" y="126" fill="#8b93b0" font-size="12" text-anchor="end">17.6%</text>
+      <circle cx="27" cy="122" r="5" fill="#3572A5"/>
+      <text x="40" y="126" fill="#e6e8f0" font-size="13">Python</text>
+      <text x="202" y="126" fill="#8b93b0" font-size="12" text-anchor="end">25.0%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.80s" fill="freeze"/>
       <circle cx="232" cy="122" r="5" fill="#4F5D95"/>
       <text x="245" y="126" fill="#e6e8f0" font-size="13">PHP</text>
-      <text x="407" y="126" fill="#8b93b0" font-size="12" text-anchor="end">7.8%</text>
+      <text x="407" y="126" fill="#8b93b0" font-size="12" text-anchor="end">6.9%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.90s" fill="freeze"/>
       <circle cx="27" cy="152" r="5" fill="#663399"/>
       <text x="40" y="156" fill="#e6e8f0" font-size="13">CSS</text>
-      <text x="202" y="156" fill="#8b93b0" font-size="12" text-anchor="end">4.7%</text>
+      <text x="202" y="156" fill="#8b93b0" font-size="12" text-anchor="end">4.2%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.00s" fill="freeze"/>
       <circle cx="232" cy="152" r="5" fill="#E34C26"/>
       <text x="245" y="156" fill="#e6e8f0" font-size="13">HTML</text>
-      <text x="407" y="156" fill="#8b93b0" font-size="12" text-anchor="end">3.4%</text>
+      <text x="407" y="156" fill="#8b93b0" font-size="12" text-anchor="end">3.1%</text>
     </g>
   </g>
 </svg>
