@@ -88,8 +88,6 @@ Formado em **Desenvolvimento de Sistemas** pela **SESI/SENAI**. Trabalho em apli
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SolariP1&hide_border=true&bg_color=0D1117&color=A78BFA&line=06B6D4&point=FFFFFF&area=true&radius=8" alt="Atividade" width="100%" />
-
 </div>
 
 ---
